@@ -1,13 +1,13 @@
-# pc.net.ws - node.js server and [PlayCanvas](https://playcanvas.com/) client using websockets #
+# pc.net.ws #
 
-Simple to use on server and client side for multiplayer games.
+node.js server and [PlayCanvas](https://playcanvas.com/) client using websockets. Simple to use for multiplayer games.
 
 Allows to establish WebSocket connection between your node.js server and playcanvas client, and exchange with messages.
 
 ## Dependencies ##
 
-* **ws** - WebSockets (https://npmjs.org/package/ws)
-* **node-uuid** - GUID generator
+* [**ws**](https://npmjs.org/package/ws) - WebSockets
+* [**node-uuid**](https://npmjs.org/package/node-uuid) - GUID generator for unique socket IDs
 
 ## Usage ##
 
@@ -15,7 +15,7 @@ Allows to establish WebSocket connection between your node.js server and playcan
 
 `npm install pc.net.ws`
 
-In PlayCanvas add new script asset '/client/pc.net.ws.js' (copy from this repo), and add it to root node.
+In PlayCanvas add new script asset `/client/pc.net.ws.js` (copy from this repo), and add it to root node.
 
 ### Simple Server ###
 
@@ -77,7 +77,7 @@ pc.script.create('echo', function (context) {
 
 ### More Examples ###
 
-For more, check out /examples directory.
+For more, check out `/examples` directory.
 
 ## License ##
 
