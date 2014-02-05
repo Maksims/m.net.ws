@@ -19,7 +19,7 @@
     "gamedev",
     "games"
   ],
-  "author": "Maksims Mihejevs (moka) <core@moka.co>",
+  "author": "Maksims Mihejevs <core@moka.co> (moka)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Maksims/pc.net.ws/issues"
@@ -27,5 +27,9 @@
   "dependencies": {
     "ws": "~0.4.31",
     "node-uuid": "~1.4.1"
-  }
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {}
 }
