@@ -20,7 +20,7 @@ In PlayCanvas add new script asset `/client/pc.net.ws.js` (copy from this repo),
 ### Simple Server ###
 
 ```js
-var WebSocketServer = require('../index');
+var WebSocketServer = require('pc.net.ws');
 var server = new WebSocketServer({ port: 8080 });
 
 server.on('connection', function(client) {
