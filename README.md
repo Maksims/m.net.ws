@@ -1,4 +1,4 @@
-# pc.net.ws #
+# m.net.ws #
 
 node.js server and [PlayCanvas](https://playcanvas.com/) client using websockets. Simple to use for multiplayer games.
 
@@ -13,14 +13,14 @@ Allows to establish WebSocket connection between your node.js server and playcan
 
 ### Installing ###
 
-`npm install pc.net.ws`
+`npm install m.net.ws`
 
-In PlayCanvas add new script asset `/client/pc.net.ws.js` (copy from this repo), and add it to root node.
+In PlayCanvas add new script asset `/client/m.net.ws.js` (copy from this repo), and add it to root node.
 
 ### Simple Server ###
 
 ```js
-var WebSocketServer = require('pc.net.ws');
+var WebSocketServer = require('m.net.ws');
 var server = new WebSocketServer({ port: 8080 });
 
 server.on('connection', function(client) {
@@ -52,7 +52,7 @@ pc.script.create('echo', function (context) {
     Echo.prototype = {
         initialize: function () {
             // if you running server not locally, then change url
-            var socket = this.socket = new pc.net.WebSocket({ url: 'ws://localhost:8080/' });
+            var socket = this.socket = new m.net.WebSocket({ url: 'ws://localhost:8080/' });
 
             socket.on('connect', function() {
                 console.log('connected');

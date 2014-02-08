@@ -1,7 +1,7 @@
 /*!
- * pc.net.ws - is websockets server/client for playcanvas
+ * m.net.ws - is websockets server/client for playcanvas
  * Copyright(c) 2014 Maksims Mihejevs (moka) <core@moka.co>
- * https://github.com/Maksims/pc.net.ws
+ * https://github.com/Maksims/m.net.ws
  * MIT Licensed
  */
 

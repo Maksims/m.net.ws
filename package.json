@@ -1,5 +1,5 @@
 {
-  "name": "pc.net.ws",
+  "name": "m.net.ws",
   "version": "0.0.2",
   "description": "playcanvas network extention for websockets",
   "main": "app.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Maksims/pc.net.ws.git"
+    "url": "git@github.com:Maksims/m.net.ws.git"
   },
   "keywords": [
     "playcanvas",
@@ -22,7 +22,7 @@
   "author": "Maksims Mihejevs <core@moka.co> (moka)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Maksims/pc.net.ws/issues"
+    "url": "https://github.com/Maksims/m.net.ws/issues"
   },
   "dependencies": {
     "ws": "~0.4.31",
