@@ -52,7 +52,7 @@ pc.script.create('echo', function (context) {
     Echo.prototype = {
         initialize: function () {
             // if you running server not locally, then change url
-            var socket = this.socket = new m.net.WebSocket({ url: 'ws://localhost:8080/' });
+            var socket = this.socket = new m.net.ws({ url: 'ws://localhost:8080/' });
 
             socket.on('connect', function() {
                 console.log('connected');

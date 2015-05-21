@@ -4,6 +4,8 @@
  * https://github.com/Maksims/m.net.ws
  * MIT Licensed
  */
+ 
+var m = {};
 
 (function(m) {
 
@@ -87,4 +89,4 @@
     m.net = m.net || { };
     m.net.ws = Socket;
 
-})(m || { });
+})(m);
